@@ -1,0 +1,19 @@
+{
+  "content_scripts": [ {
+    "all_frames": true,
+    "css": [ "slackify.css" ],
+    "js": [ "jquery-2.1.1.min.js", "slack.com.js", "slackify.js" ],
+    "matches": [ "https://*.slack.com/*" ],
+    "run_at": "document_start"
+  } ],
+  "description": "Updates Slack with some awesomeness",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png"
+  },
+  "manifest_version": 2,
+  "name": "Slackify",
+  "update_url": "https://raw.github.com/mathijsblokland/slackify-ui-fixes/master/update_manifest.xml",
+  "permissions": [ "activeTab", "storage" ],
+  "version": "0.0.1"
+}

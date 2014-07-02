@@ -1,0 +1,77 @@
+/* Sidebar */
+.light_theme .channels_list_holder h2{
+  font-size: .75rem;
+}
+
+.light_theme .channels_list_holder h2 .fa-star{
+  font-size: 12px !important;
+}
+
+.light_theme .channels_list_holder ul li{
+  font-size: .8rem;
+  line-height: 1.1rem;
+  height: 1.1rem;
+}
+
+.light_theme .channels_list_holder ul li a{
+  height: 1.1rem;
+}
+
+.light_theme .channels_list_holder ul li a:hover {
+  background: #3E313C;
+}
+
+.light_theme .channels_list_holder .section_holder{
+  margin-bottom: 1.2rem;
+}
+
+.light_theme .channels_list_holder .list_more{
+  font-size: .7rem;
+}
+
+.light_theme .fa-times-circle:before{
+  vertical-align: text-top;
+  font-size: .6rem;
+}
+
+.light_theme #im-list .presence, 
+.light_theme #starred-list .presence{
+  margin-top: 5px;
+}
+
+.light_theme .channels_list_holder .unread_highlight{
+  font-size: .6rem;
+  line-height: 9px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  top: 2px;
+}
+
+.light_theme #direct_messages li.away{ 
+  display:none;
+}
+
+/* Messages */
+.light_theme #msgs_div .message{
+  padding: 0 2rem .1rem 1.7rem;
+}
+
+.light_theme .member_image.thumb_36{
+  width:20px;
+  height: 20px;
+}
+
+.light_theme .message:hover .timestamp{
+  top: 3px;
+}
+
+.light_theme .message .message_star_holder{
+  left: auto !important;
+  top: 2px !important;
+  right: 15px;
+}
+
+.light_theme .show_user .message_star_holder{
+  left: 0 !important;
+  top: 0 !important;
+}
