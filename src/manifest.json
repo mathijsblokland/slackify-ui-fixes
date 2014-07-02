@@ -15,5 +15,5 @@
   "name": "Slackify",
   "update_url": "https://raw.github.com/mathijsblokland/slackify-ui-fixes/master/update_manifest.xml",
   "permissions": [ "activeTab", "storage" ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
