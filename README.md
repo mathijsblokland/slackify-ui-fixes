@@ -4,7 +4,7 @@ Slackify
 A Google Chrome extension to change the Slack UI
 
 
-To install just drop the `.crx` file from the extension folder in your `chrome://extensions/` and click **'add'**.
+To install just download and drop the [.crx](https://github.com/mathijsblokland/slackify-ui-fixes/raw/master/extension/Slackify.crx) file in your `chrome://extensions/` and click **'add'**.
 
 **Changes so far:**
 - font-size / line-height is changed for the sidebar
